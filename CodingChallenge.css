@@ -1,0 +1,100 @@
+/* Sfondo */
+    body{
+        background-image: url(background.jpg);
+        background-size: cover;
+    }
+
+/* Raccoglitore di Tutto */
+    #universal{
+        background-color: rgba(0, 0, 0, 0.50);
+        border-radius: 30px;
+        padding: 3%;
+        box-sizing: border-box;
+        text-align: center;
+        color: aliceblue;
+        width: 60%;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding-bottom: 10%;
+    }
+
+header{
+    color: chartreuse;
+    margin-top: 10%;
+    font-family: Arial;
+}
+
+    img{
+        width: 250px;
+        height: 125px;;
+    }
+
+/* Barra dei Pulsanti */
+    #pulsanti{
+        background-color: chartreuse;
+        border-radius: 10px;
+        padding: 15px;
+        box-sizing: border-box;
+        width: 80%;
+        margin: auto;
+    }
+
+    input[type="button"]{
+        font-size: larger;
+    }
+
+/* Elementi inline-block */
+    input, h3{
+        display: inline-block;
+    }
+/* Monopattini Disponibili */
+   main{
+        text-align: left;
+        width: 80%;
+        margin: auto;
+        font-family: Arial;
+        font-size: x-large;
+        list-style: square;
+    }
+
+    main > div{
+        margin:60px;
+    }
+
+    main > div *{
+    margin:5px;        
+    }
+
+    input[type="checkbox"]{
+        height: 1em;
+        width: 1em;
+    }
+    
+    p:before{
+        content: "\21A6";
+    }
+
+    /* barre di carica */
+    hr{
+        height: 40px;
+        border-radius: 10px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        border: 0px;
+    }
+
+    #hr1{
+        width: 40%;
+        background-color: rgb(244, 180, 18);
+    }
+
+    #hr2{
+        width: 70%;
+        background-color: green;
+    }
+
+    #hr3{
+        width: 20%;
+        background-color: rgb(180, 0, 0);
+    }
